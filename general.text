@@ -1,4 +1,4 @@
-[word]ผมเรียนอยู่ที่[/word][UNIVERSITY]มหาวิทยาลัยขอนแก่นวิทยาเขตหนองคาย[/UNIVERSITY]
+﻿[word]ผมเรียนอยู่ที่[/word][UNIVERSITY]มหาวิทยาลัยขอนแก่นวิทยาเขตหนองคาย[/UNIVERSITY]
 [BANK]ธนาคารกรุงไทย[/BANK][word]เปิดรับสมัครงาน[/word]
 [LANGUAGE]ภาษาไทย[/LANGUAGE]เป็นภาษาทางการของ[COUNTRIES]ประเทศไทย[/COUNTRIES]
 [PERSON]ไพสิฐ พาณิชย์กุล[/PERSON][word] เป็นอาจารย์ประจำ[/word][BRANCH-UNIVERSITY]สาขาวิชานิติศาสตร์[/BRANCH-UNIVERSITY][word] [/word][DEPARTMENT]ภาควิชารัฐศาสตร์[/DEPARTMENT][word] [/word][FACULTY]คณะสังคมศาสตร์[/FACULTY][word] [/word][UNIVERSITY]มหาวิทยาลัยเชียงใหม่[/UNIVERSITY]
@@ -81,3 +81,4 @@
 [word]เพิ่งกลับจาก[/word][PROVINCE]สระบุรี[/PROVINCE][word]มา[/word][date]เมื่อกี้[/date]
 [PERSON]Stephen Hawking[/PERSON][word] เสียชีวิตอย่างสงบด้วยวัย 76 ปี[/word]
 [PERSON]อาจารย์[/PERSON][word]มีตารางสอน[/word][date]วันพรุ่งนี้[/date]
+[word]การยกมือขึ้นบังแดดของ[/word][PERSON]ประวิตร[/PERSON]

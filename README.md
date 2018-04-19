@@ -1,1 +1,3 @@
 # thainer
+
+just for studying
