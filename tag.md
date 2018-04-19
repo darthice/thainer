@@ -1,4 +1,4 @@
-# คำอธิบาย Tag
+﻿# คำอธิบาย Tag
 
 ## general
 
@@ -33,6 +33,7 @@
 + car - รถยนต์
 + Fruit - ผลไม้
 + law - กฎหมาย
++ location - สถานที่
 
 ## science
 
