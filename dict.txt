@@ -1,0 +1,12 @@
+﻿ประยุทธ์-PERSON
+เกาะล้าน-LOCATION
+จ.เลย-PROVINCE
+จังหวัดเลย-PROVINCE
+ธนาคารกสิกร-BANK
+ธนาคาร-BANK
+ธนาคารกรุงเทพ-BANK
+กรุงเทพ-PROVINCE
+กทม.-PROVINCE
+ประวิตร-PERSON
+พารากอน-LOCATION
+เดอะมอล-LOCATION

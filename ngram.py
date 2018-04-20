@@ -7,12 +7,13 @@ def run(sen):
     test=sen#ประโยคที่ใช้ทดสอบ
     test=tltk.nlp.word_segment(test)#ตัดคำ
     test=test.replace("<s/>","")#เอา</s>ออกจากประโยค
-    #print(test)
-    sentolist(test)
+    result = sentolist(test)
+    return result
 
 
 #ทำให้ประโยคจากการตัดคำกลายเป็นlist
 def sentolist(test):
+    
     stat=0
     end=0
     test_it=[]
@@ -22,7 +23,9 @@ def sentolist(test):
             test_it.append(test[stat:end])
             stat=i+1
     test_it.append(test[stat:len(test)])
-    ngram(test_it)
+    result = ngram(test_it)
+    return result
+    
 
 #เริ่มทำ n-gram
 def ngram(test_it):
@@ -32,6 +35,16 @@ def ngram(test_it):
     token=[e.strip() for e in lines]
     del lines
     f.close() # ปิดไฟล์
+    with codecs.open('dict.txt', 'r', "utf-8") as f:
+        lines = f.readlines()
+    token2=[e.strip() for e in lines]
+    token2[0] = token2[0].replace('\ufeff','')
+    token = []
+    for i in range(len(token2)):
+        token.append(token2[i].split('-')[0])
+    
+    del lines
+    f.close() # ปิดไฟล์ำ
     for i in range(len(test_it)-1):#ลูปตามขนาดของจำนวนคำ-1 เพราะในรอบสุดท้ายมันไม่มีคำต่อแล้ว
         word=""
         #print(i)
@@ -58,4 +71,11 @@ def ngram(test_it):
         del test_it[i]
     test_it.pop()
 
-    print(test_it)
+    
+    return test_it
+def start():
+    sen = input("text: ")
+    run(sen)
+if __name__ == '__main__':
+    start()
+    
