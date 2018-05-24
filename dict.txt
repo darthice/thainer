@@ -98,7 +98,7 @@
 เสม็ด-ISLAND
 สิมิรัน-ISLAND
 เขาใหญ๋-LOCATION
-ปากช่อง-DISTINCT
+ปากช่อง-DISTRICT
 น้ำตกเจ็ดสาวน้อย-WATERFALL
 สวนสัตว์-LOCATION
 ซาฟารี-LOCATION
